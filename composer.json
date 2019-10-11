@@ -1,0 +1,25 @@
+{
+    "name": "innerent/people",
+    "description": "",
+    "authors": [
+        {
+            "name": "Marcelo Barros da Silva",
+            "email": "maxcelos@outlook.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Innerent\\People\\Providers\\PeopleServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Innerent\\People\\": ""
+        }
+    }
+}
